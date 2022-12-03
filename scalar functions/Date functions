@@ -1,0 +1,14 @@
+
+SELECT CURDATE();
+
+SELECT Name, DATE(BirthTime) AS BirthDate FROM Dual;
+
+SELECT Name, Extract(YEAR FROM BirthTime) AS BirthYear FROM Dual;
+
+SELECT DATE('2003-2-29 01:02:03');
+
+SELECT FROM_DAYS(7299);
+
+SELECT HOUR('10:05:03');
+
+SELECT LAST_DAY('2003-21-05');
