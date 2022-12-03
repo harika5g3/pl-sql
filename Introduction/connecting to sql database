@@ -1,0 +1,60 @@
+To connect Oracle SQL Developer to your Oracle Database Exadata Express Cloud Service,
+you need to generate a secure wallet by enabling Oracle Net Services (SQL*Net) for your service, 
+install Oracle SQL Developer, and create a cloud connection from Oracle SQL Developer to your service.
+
+Install Oracle SQL Developer
+Oracle SQL Developer is a free integrated development environment that simplifies the development and management of Oracle Database in both traditional and Cloud deployments. Oracle SQL Developer version 17.4 (current version) or later, can connect to Oracle Database Exadata Express Cloud Service using Oracle Wallet, which can be downloaded from the database service. This section describes how to install Oracle SQL Developer.
+
+Note:The functionality described here requires the Oracle SQL Developer Release version 17.4 (current version) or later running on Java Development Kit (JDK) version 8 update 161 or later.
+For download and setup instructions to set up Oracle SQL Developer locally for Exadata Express, see Using SQL Developer with Oracle Database Exadata Express Cloud Service on Oracle Technology Network.
+
+Note:Network connections between Oracle SQL Developer and Exadata Express require Java unlimited strength encryption. Verify that Oracle SQL Developer is running on JDK version 8 update 161 or later, which provides unlimited strength encryption by default. As a convenience specifically for Windows 64-bit users, Oracle SQL Developer provides an option to install the correct JDK version as part of the base software installation.
+Configure Oracle SQL Developer Cloud Connection
+Oracle SQL Developer must have an Oracle Cloud connection configured to connect to Oracle Database Exadata Express Cloud Service. The connection can be created using your Exadata Express database account credentials.
+
+To add an Oracle Cloud connection:
+Run Oracle SQL Developer locally.
+The Oracle SQL Developer home page displays.
+
+
+
+Under Connections, right click Connections.
+The Connection menu appears.
+
+
+
+Select New Connection.
+The New/Select Database Connection dialog appears.
+
+
+Description of new_connection.png follows
+Description of the illustration new_connection.png
+
+On the New/Select Database Connection dialog, make the following entries:
+Connection Name - Enter the name for this cloud connection.
+
+Username - Enter the database username . You can either use the default administrator database account (PDB_ADMIN) provided as part of the service or create a new schema, and use it.
+
+Password - Enter the Password required during sign in when accessing Exadata Express.
+
+Connection Type - Select Cloud PDB.
+
+Configuration File - Click Browse, and select the Client Credentials zip file, downloaded from the Exadata Express service console. See Enable Oracle Net Services (SQL*Net) Access for Client Applications for information on downloading the Client Credentials.
+
+Keystore Password - Enter the Password generated while downloading the Client Credentials from the Exadata Express service console.
+
+
+
+Click Test.
+Status: Success displays at the left most bottom of the New/Select Database Connection dialog.
+
+Click Connect.
+An entry for the new connection appears under Connections.
+
+Open the new connection.
+If you have connected successfully, the tables and other objects from Exadata Express display under the new connection.
+
+
+Description of new_conn_objects.png follows
+Description of the illustration new_conn_objects.png
+
