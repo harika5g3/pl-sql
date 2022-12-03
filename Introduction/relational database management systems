@@ -1,0 +1,12 @@
+Relational database:
+A relational database includes tables containing rows and columns. For example, a typical business order entry database would 
+include a table that describes a customer with columns for name, address, phone number and so forth.
+
+Table rows and columns:
+Tables are database objects that contain all the data in a database. In tables, 
+data is logically organized in a row-and-column format similar to a spreadsheet. 
+Each row represents a unique record, and each column represents a field in the record
+
+What is a Relational Database Management System (RDBMS)::
+A relational database management system (RDBMS) is a program that allows you to create, update, and administer a relational database. 
+Most relational database management systems use the SQL language to access the database.
