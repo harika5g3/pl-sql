@@ -1,0 +1,25 @@
+INTRODUCTION TO SQL:::
+
+Structured Query Language, abbreviated as SQL,
+is a domain-specific language used in programming and designed for managing data held in a relational database management system,
+or for stream processing in a relational data stream management system
+
+DDL: Data Definition Language
+What is Data Definition Language (DDL)? Data Definition Language (DDL) is used to create and modify the structure of objects in a 
+database using predefined commands and a specific syntax.
+These database objects include tables, sequences, locations, aliases, schemas and indexes.
+
+DML: Data Manipulation Language
+A data manipulation language is a computer programming language used for adding, deleting, and modifying data in a database. 
+A DML is often a sublanguage of a broader database language such as SQL, with the DML comprising some of the operators in the language
+
+TCL: Transaction Control Language
+In SQL, TCL stands for Transaction control language. A single unit of work in a database is formed after the consecutive execution of commands is known as a transaction.
+There are certain commands present in SQL known as TCL commands that help the user manage the transactions that take place in a database.
+
+DCL: Data Control Language
+Data Control Language(DCL) deals with the commands used in SQL that permit a user to access, modify or work on the different privileges in order to control the database.
+It allows the owner of the database to give access, revoke access, and change the given permissions as and when required.
+
+DQL: Data Query Language
+The full form of DQL is Data Query Language. DQL is a part of the grouping involved in SQL (Structures Query Language) sub-languages. The SQL sub languages have four major categories, DQL, DDL, DCL, and DML.
