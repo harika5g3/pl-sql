@@ -1,0 +1,16 @@
+
+
+set serveroutput on
+declare
+c number := '&A__NUM';
+b number := 0;
+begin
+    dbms_output.put_line('This is from outside of the block');
+    dbms_output.put_line('The given value is '||c);
+    LOOP
+        b := b+1;
+        dbms_output.put_line('This is from inside of the block');
+        dbms_output.put_line('The given value is '||c);
+        EXIT;
+   END LOOP;
+end;
