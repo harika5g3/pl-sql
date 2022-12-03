@@ -1,0 +1,12 @@
+Oracle database architecture depends upon two types of storage: 
+physical and logical. Physical (disk) storage contains all the files in the database. Logical storage structures, 
+such as tablespaces, segments, extents, and blocks, appear on the disk but are not part of the dataset.
+Logical storage helps users locate specific data and improves the efficiency of the retrieval process,
+enabling a modular data storage system in which capacity can be adjusted without affecting performance.
+
+A book serves as a helpful analogy for the difference between physical and logical storage.
+A book's contents are printed on paper (physical storage), but additional information in the form of chapters,
+page numbers, and footnotes (logical storage) helps readers navigate the book and its contents.
+
+Logical storage is the contextual information that appears in the book, but isn't part of the book's story.
+Rather, it's a guide to help you find specific information or mark your place.
