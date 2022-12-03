@@ -1,0 +1,3 @@
+The SQL SELECT Statement. The SELECT statement is used to select data from a database. The data returned is stored in a result table, called the result-set.
+
+select e.eno, e.ename, d.deptno from emp e, dept d where e.deptno= d.deptno;
