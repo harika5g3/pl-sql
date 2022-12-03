@@ -1,0 +1,12 @@
+select empno, ename, sal from emp 
+where ename like '%M%'
+
+select empno, ename, sal from emp 
+where ename like '%M'
+
+select empno, ename, sal from emp 
+where ename like 'SMITH'
+
+select ename from emp
+where regexp_like(ename,'M')
+order by ename;
