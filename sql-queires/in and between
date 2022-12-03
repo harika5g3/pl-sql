@@ -1,0 +1,5 @@
+select empno, ename, sal, comm from emp
+where sal between 900 and 1500
+
+SELECT * FROM EMP
+WHERE ENAME IN ('SMITH','MARTIN');
