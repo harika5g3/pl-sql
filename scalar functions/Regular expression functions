@@ -1,0 +1,5 @@
+SELECT * FROM STUDENT
+WHERE Name like 'r%';
+
+SELECT * FROM STUDENT
+WHERE Name like 'r% [s]%'
