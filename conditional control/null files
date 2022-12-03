@@ -1,0 +1,28 @@
+CREATE OR REPLACE PROCEDURE divide_it (
+    p__numerator     IN  NUMBER,
+    p__denominator   IN  NUMBER,
+    p__result        OUT NUMBER
+)
+IS
+BEGIN
+    IF p__denominator = 0 THEN
+        NULL;
+    ELSE
+        p__result := p__numerator / p__denominator;
+    END IF;
+END;
+
+DECLARE
+  n_status VARCHAR2( 50 );
+BEGIN
+  n_status := 'GOOD';
+
+  CASE nt_status
+  WHEN 'BLOCK' THEN
+    request_for_aproval;
+  WHEN 'WARNING' THEN
+    send_email_to_accountant;
+  ELSE
+    NULL;
+  END CASE;
+END;
