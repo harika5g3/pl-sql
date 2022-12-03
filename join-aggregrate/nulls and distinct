@@ -1,0 +1,3 @@
+select count(distinct(e_sal)),count(e_sal) from emp;
+
+SELECT DISTINCT esum FROM TestData WHERE esum IS NOT NULL;
