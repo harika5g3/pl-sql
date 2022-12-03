@@ -1,0 +1,15 @@
+SET SERVEROUT ON
+DECLARE 
+   grade char(1) := '&GRADE'; 
+BEGIN 
+   CASE grade 
+      when 'a' then dbms_output.put_line('Your grade is Outstanding'); 
+      when 'b' then dbms_output.put_line('Your grade is Excellent'); 
+      when 'c' then dbms_output.put_line('Your grade is Very good'); 
+      when 'd' then dbms_output.put_line('Your grade is Average'); 
+      when 'e' then dbms_output.put_line('Your grade is Poor'); 
+      else raise CASE_NOT_FOUND;
+   END CASE; 
+   EXCEPTION WHEN CASE_NOT_FOUND THEN
+        dbms_output.put_line('No such grade');
+END;
