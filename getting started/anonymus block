@@ -1,0 +1,3 @@
+Execute a PL/SQL anonymous block using SQL*Plus
+Second, turn on the server output using the SET SERVEROUTPUT ON command so that the DBMS_OUTPUT. 
+PUT_LINE procedure will display text on the screen. Third, type the code of the block and enter a forward slash ( / ) to instruct SQL*Plus to execute the block.
