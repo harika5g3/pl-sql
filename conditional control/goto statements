@@ -1,0 +1,26 @@
+BEGIN
+  GOTO second_message;
+
+  <<first_message>>
+  DBMS_OUTPUT.PUT_LINE( 'Hell' );
+  GOTO the_end;
+
+  <<second_message>>
+  DBMS_OUTPUT.PUT_LINE( 'PL/SQL GOTO ' );
+  GOTO first_message;
+
+  <<the_end>>
+  DBMS_OUTPUT.PUT_LINE( 'and good bye...' );
+
+END;
+
+DECLARE 
+  n__sales NUMBER;
+  n__tax NUMBER;
+BEGIN 
+    GOTO inside_if_statement;
+    IF n_sales > 0 THEN
+      <<inside__if__statement>>
+      n_tax  := n_sales * 0.1;
+    END IF;
+END;
