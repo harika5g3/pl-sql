@@ -1,0 +1,1 @@
+select empno,job,sal,sum(sal)  as dept_salary from emp order by job ASC;
