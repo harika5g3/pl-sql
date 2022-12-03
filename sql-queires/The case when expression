@@ -1,0 +1,13 @@
+set serveroutput on;
+declare
+grade varchar2(10):= '&gr';
+begin
+case grade
+    when 'A' then dbms_output.put_line('your grade is outstanding');
+    when 'B' then dbms_output.put_line('your grade is excellent');
+    when 'c' then dbms_output.put_line('your grade is very good');
+    when 'D' then dbms_output.put_line('your grade is Average');
+    when 'F' then dbms_output.put_line('your grade is Poor');
+    else dbms_output.put_line('no such grade');
+end case;
+end;
