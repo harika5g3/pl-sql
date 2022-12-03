@@ -1,0 +1,35 @@
+Oracle is used to work on relational database management system, which has its upgrades occasionally for including latest features such as,
+in the user interface, database level, and/or the technical backend features. The first version of Oracle released in 1979 that was available for public was Oracle V2,
+which is the latest version released in June 2019 was Oracle 19C. There were several other versions released in between too, 
+namely Oracle V3, V4, V5, V6, 7, 8, 9i, 10g Release1, 10g Release2, 11g Release1, 11g Release2, 12c Release1, 12c Release2 and 18c.
+1. OracleV2: This was the first commercially available SQL RDMS launched by Oracle in the market. It was launched in the year 1979 and the ‘V’ letter stands for version and ‘2’ stands for the second version. The version was very basic if we are going to compare now. It only was able to run some SQL queries and perform few join operations.
+
+2. OracleV3: This was the second launch in the year 1983. It brought many new features like concurrency control and scalability.
+
+3. OracleV4: This was released in the market in the year 1984 and it had all the features of the previous versions but with one very noted addition was it was compatible with the MS-DOS operating system developed by Microsoft.
+
+4. OracleV5: This was released in the year 1985 and it introduced for the first time client-server computing and distributed database systems which mean not all storage devices are attached to a common processor. It may be stored in multiple computers which are located in the same physical location. This release was a very important breakthrough.
+
+5. OracleV6: It was released in the year 1988 and for the first time row-level locking, online backup, and recovery was introduced for the first time in this release
+
+6. Oracle7: This was released in the year 1992 and it was an important release because it was this release that introduced PL/SQL that is Procedural SQL stored procedures so that it increases the reusability, triggers if we need to do any operation based on any insertion or updation, shared cursors. It also introduced a parallel server option which means it supports simultaneous database access from two or more loosely coupled systems. It helps to achieve high performance
+
+7. Oracle8: It was first released in June 1997. Later on, 8i was released where ‘i’ means the internet. The 8i was released in the year 2000. The important features of this release were Native Internet protocols and Java. It has PLSQL Gateway introduced for deploying applications on the Web. XML parser for Java. The CASE statement in SQL which is similar to the DECODE() function was introduced.
+
+8 Oracle9i: This version was released in the year 2001. Here also the ’i ’ stands for the internet. It introduced Oracle RAC which stands for Oracle Real Application Clusters (RAC). Oracle RAC provides software for clustering and high availability in Oracle database environments. It provides clustering by allowing multiple computers to run Oracle RDBMS simultaneously while accessing a single database. It also brought out data mining and data analysis algorithms for analytics in its 9.2.0.8 release in the year 2007.
+
+9. Oracle10g Release1: The oracle 10g had its first release in the year 2003. Here the letter ‘g’ indicates grid. This feature was introduced first in oracle 10g. Grid computing provides an adaptive software infrastructure that makes use of modular storage and low –risk servers. This helps in balancing the overall workload and it also provides capacity on demand. It also had new features like Automated Database management system, Grid infrastructure, Oracle ASM.
+
+10. Oracle 10g Release2: In the second release which was released in July 2005. Several more features were added. The features are Real Application Testing, Online Indexing, and Transparent Data Encryption.
+
+11. Oracle 11g Release1: The Oracle 11g was released in September 2007. Like in 10g the ‘g’ here also stands for grid. This release also introduced a lot of features like SQL Tuning. Active data guard feature. This feature is an extension of the RDMS. It provides both GUI (Graphical User Interface) and CUI (Command User Interface) for managing data guard features.
+
+12. Oracle 11g Release2: This was released in August 2013. The features that were added in the new release were Hybrid Columnar Compression, Cluster File System and Database Appliance. The Oracle Database Appliance feature consists of a single-box device that contains hardware, networking, software, and storage to build a clustered database server.
+
+13. Oracle12c Release1: The oracle 12c had its first release in July 2013. The ‘c’ here stands for the cloud. This is the first database offered to buy Oracle with cloud computing. It has a multitenant architecture that actually simplifies consolidation without doing any changes in the application. Other than this it has an In-Memory column store, SQL Pattern Matching, and native JSON.
+
+14. Oracle 12c Release2: It was released in September 2016. It retained the earlier features but some features like Exadata Cloud Service and Cloud at Customer.
+
+15. Oracle 18c: Just like previous release here also ‘c’ stands for the cloud. This version was released in the cloud in February 2018. It is actually the next iteration of Oracle 12c. It contains a lot of improvements. It does not contain any drastic new features like 12c had over 11g but only incremental improvements. The improvements come by features like Polymorphic Table Functions.
+
+16. Oracle 19c: This is the latest version of the Oracle database and was released in April 2019 for Linux and other platforms and in June 2019 on the cloud. The features included Automated Index Creation, SQL Queries on Object stores and Real-time statistics maintenance.
