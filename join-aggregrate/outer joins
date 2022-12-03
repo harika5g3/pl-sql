@@ -1,0 +1,29 @@
+LEFT OUTER JOIN
+
+SELECT
+  a.Order_Number,
+  b.Customer_Name,
+  b.Postal_Code
+FROM orders a
+LEFT JOIN customers b -- alternatively use LEFT OUTER JOIN instead of LEFT JOIN
+ON a.Customer_Number = b.Customer_Number;
+
+RIGHT OUTER JOIN
+
+SELECT
+  a.Order_Number,
+  b.Customer_Name,
+  b.Postal_Code
+FROM orders a
+RIGHT JOIN customers b -- alternatively use RIGHT OUTER JOIN instead of RIGHT JOIN
+ON a.Customer_Number = b.Customer_Number;
+
+FULL OUTER JOIN
+
+SELECT
+  a.Order_Number,
+  b.Customer_Name,
+  b.Postal_Code
+FROM orders a
+FULL JOIN customers b --alternatively use ‘FULL OUTER JOIN’ instead of ‘FULL JOIN’
+ON a.Customer_Number = b.Customer_Number;
