@@ -1,0 +1,17 @@
+
+create or replace procedure emp_proc(a in number,b out varchar2)
+is 
+begin
+    select ename into b from emp where eno=a;
+end;
+/
+
+set serveroutput on
+declare
+a number := &en;
+b varchar2(50);
+begin
+    empproc(a,b);
+    dbms_output.put_line('The employee name is '||b);
+end;
+/
