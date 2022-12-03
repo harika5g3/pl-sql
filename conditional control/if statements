@@ -1,0 +1,17 @@
+SET SERVEROUTPUT ON
+DECLARE
+num_small number(3):= &A;
+num_large number(3):= &B;
+num_temp number(3);
+BEGIN
+    IF(num__small > num__large) THEN 
+        num__temp := num__small;
+        num__small := num__large;
+        num__large := num__temp;
+        dbms_output.put_line('The small numer is '||num__small);
+        dbms_output.put_line('The large numer is '||num_+large);
+    ELSE
+        dbms_output.put_line('The small numer is '||num__small);
+        dbms_output.put_line('The large numer is '||num__large);
+    END IF;
+END;
