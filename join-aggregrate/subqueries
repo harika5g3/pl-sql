@@ -1,0 +1,2 @@
+SELECT * FROM dept WHERE ID IN (   
+SELECT ID FROM Faculty WHERE City = 'Tadepalli' OR City = 'Hyderabad' ) ; 
